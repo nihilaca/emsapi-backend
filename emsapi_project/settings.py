@@ -33,7 +33,13 @@ ALLOWED_HOSTS = [
 
 CSRF_TRUSTED_ORIGINS = [
     "https://emsapi-backend.onrender.com",
+    "https://react-dashboard-mu-ten-11.vercel.app/"
 ]
+
+CORS_ALLOWED_ORIGINS = [
+    "https://react-dashboard-mu-ten-11.vercel.app/",
+]
+
 
 
 
