@@ -25,7 +25,16 @@ SECRET_KEY = 'django-insecure-4$%(ge9zu%jv(_*b^e6qn9g)6=7l925cdp%492utth*04ls4cc
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "emsapi-backend.onrender.com",
+    "localhost",
+    "127.0.0.1"
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://emsapi-backend.onrender.com",
+]
+
 
 
 # Application definition
